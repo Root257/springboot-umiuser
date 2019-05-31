@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: Std_88db
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.19.1.91:3306/test?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+mybatis:
+  mapperLocations: classpath:mapper/*Mapper.xml
+
+logging:
+  level:
+    com.hao.demo.dao: debug
